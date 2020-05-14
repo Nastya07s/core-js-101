@@ -172,7 +172,6 @@ class MyClass {
 
   combine(selector1, combinator, selector2) {
     this.str += `${selector1.str} ${combinator} ${selector2.str}`;
-    console.log(this.str);
     return this;
   }
 
